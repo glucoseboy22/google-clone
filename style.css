@@ -1,0 +1,68 @@
+/*
+    to adjust the size or width of an element, target the html tag and add a value to the width property.
+
+    inline and block elements: inline is a display property that displays elements in a horizontal manner or beside each other while block is a display property that displays elements on top or vertically.
+    
+    Css classes are basically the names given to the generic html tags.
+    CSS classes can be called by using the .Class name syntax
+
+    There are many ways to center an element. To center an element using margins, display = block, must have a width, set margin left and right to auto.
+
+    flex box is another important display element in css that is used to display elements on the web page.
+    it is important because you can use it for centering and spacing out elements.
+*/
+
+.main {
+    margin-top: 10%;
+}
+
+.google_img {
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.search_bar {
+    width: 500px;
+    line-height: 24px;
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px; 
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 1px solid #b8bcc4;
+    border-radius: 24px;
+}
+
+.two_buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.buttons {
+    background: #b8bcc4;
+    color: black;
+    font-weight: bold;
+    height: 30px;
+    border: none;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+
+.fonts {
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    color: rgb(85, 85, 85);
+}
