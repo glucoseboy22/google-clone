@@ -1,32 +1,60 @@
-<!--
-    doctype is used to inform the browser on the version of html
-    the html tag comes first
-    then the head tag which contains metadata, title and styles comes next
-    then the body which will contain the other tags that will be displayed on the website
--->
-
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/9a3079d714.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="style.css">
-        <title> Google.com </title>
+        <title> Google </title>
     </head>
-
     <body>
-        <div class="main">
-            <img class="google_img" src="goog.png" alt="is yours gold?">
-            <input class="search_bar" type="text">
-            <div class="two_buttons">
+        <div class="overview">
+            <div class="small-overview">
+                <ul class="navigation left">
+                    <li> gmail </li>
+                    <li> images </li>
+                    <li><i class="fa-solid fa-grid icon"></i></li>
+                </ul>
+            </div>
+            <div class="images">
+                <img src="image/google.png" alt="Google logo">
+            </div>
+            <div class="search-bar-div">
+                <div class="search-bar">
+                    <i class="fa-solid fa-magnifying-glass icon"></i>
+                    <input type="text" name="" id="" class="input-field">
+                    <i class="fa-solid fa-microphone icon"></i>
+                    <i class="fa-solid fa-camera icon"></i>
+                </div>
+            </div>
+            <div class="two-buttons">
                 <button class="buttons"> Google Search </button>
                 <button class="buttons"> I'm Feeling Lucky </button>
             </div>
-            <div class="fonts">
-                <p>
-                    We protect our privacy. <a href="privacy.html" target="_blank"> Learn How. </a>
-                </p>
+            <p class="text"> 
+                Google offered in: <a href=""> Hausa </a> <a href=""> Igbo </a> <a href=""> Ede Yoruba </a> <a href=""> Nigerian Pidgin </a>
+            </p>
+        </div>
+
+        <div class="bottom-overview">
+            <p class="border-line"> Nigeria </p>
+            <div class="small-overview border-line">
+                <ul class="navigation right">
+                    <li> About </li>
+                    <li> Advertising </li>
+                    <li> Business </li>
+                    <li> How Search Works </li>
+                </ul>
+                <div class="small-overview">
+                    <i class="fa-solid fa-leaf"></i>
+                    <p> Carbon neutral since 2007 </p>
+                </div>
+                <ul class="navigation left">
+                    <li> Privacy </li>
+                    <li> Terms </li>
+                    <li> Settings </li>
+                </ul>
             </div>
         </div>
     </body>

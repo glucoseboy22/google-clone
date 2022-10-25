@@ -1,68 +1,104 @@
-/*
-    to adjust the size or width of an element, target the html tag and add a value to the width property.
+body{
+    background-color: #202124;
+    color: #e8eaed;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    margin: 0px;
+}
 
-    inline and block elements: inline is a display property that displays elements in a horizontal manner or beside each other while block is a display property that displays elements on top or vertically.
-    
-    Css classes are basically the names given to the generic html tags.
-    CSS classes can be called by using the .Class name syntax
+a{
+    text-decoration: none;
+    margin: 0px 5px;
+    color: #8ab4f8;
+}
 
-    There are many ways to center an element. To center an element using margins, display = block, must have a width, set margin left and right to auto.
+p{
+    padding: 20px 10px;
+}
 
-    flex box is another important display element in css that is used to display elements on the web page.
-    it is important because you can use it for centering and spacing out elements.
-*/
+li{
+    list-style: none;
+    margin: 0px 10px;
+}
 
-.main {
+i{
+    margin: 0px 10px;
+}
+
+.overview{
+    display: block;
+}
+
+
+.images{
+    display: flex;
+    justify-content: center;
     margin-top: 10%;
 }
 
-.google_img {
-    width: 300px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    
-}
-
-.search_bar {
-    width: 500px;
-    line-height: 24px;
-    display: block;
-    margin-top: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 10px; 
-    padding-bottom: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
-    border: 1px solid #b8bcc4;
-    border-radius: 24px;
-}
-
-.two_buttons {
+.search-bar-div{
     display: flex;
     justify-content: center;
     margin-top: 20px;
 }
 
-.buttons {
-    background: #b8bcc4;
-    color: black;
-    font-weight: bold;
-    height: 30px;
-    border: none;
-    margin-right: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    
+.search-bar{
+    border: 0.5px solid #303134;
+    border-radius: 20px;
+    width: 630px;
+    padding: 5px;
 }
 
-.fonts {
+.input-field{
+    width: 500px; 
+    height: 30px;
+    background: transparent;
+    border: none;
+}
+
+.two-buttons{
+    display: flex;
+    margin: 20px auto;
+    justify-content: center;
+}
+
+.buttons{
+    background: #303134;
+    border: 1px solid #303134;
+    height: 30px;
+    color: #e8eaed;
+    padding: 7px 12px;
+    margin-left: 10px;
+    border-radius: 3px;
+}
+
+.small-overview{
+    display: flex;
+    justify-content: space-around; 
+    padding: 0px 10px;
+}
+
+.navigation{
+    display: flex;
+}
+
+.left{
+    margin-left: auto;
+}
+
+.right{
+    margin-right: auto;
+}
+
+.border-line{
+    border-bottom: 1px solid #303134;
+}
+
+.bottom-overview{
+    background: #171717;
+    margin-top: 8%;
+}
+
+.text{
     text-align: center;
-    font-size: 14px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight: lighter;
-    color: rgb(85, 85, 85);
 }
